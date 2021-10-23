@@ -1,0 +1,16 @@
+PODS:
+  - LDZFAttributedStringConfig (0.1.0)
+
+DEPENDENCIES:
+  - LDZFAttributedStringConfig (from `../`)
+
+EXTERNAL SOURCES:
+  LDZFAttributedStringConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDZFAttributedStringConfig: 0cc27e801cf4929907a18e9ab5ae727b3f455cee
+
+PODFILE CHECKSUM: 13e3ccd014048d866d447ce44865fb68b6dd3e19
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LDZFAttributedStringConfig_Example' do
+  pod 'LDZFAttributedStringConfig', :path => '../'
+
+  target 'LDZFAttributedStringConfig_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

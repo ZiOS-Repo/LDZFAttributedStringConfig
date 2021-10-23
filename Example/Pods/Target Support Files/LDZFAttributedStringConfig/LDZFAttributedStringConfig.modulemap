@@ -1,0 +1,6 @@
+framework module LDZFAttributedStringConfig {
+  umbrella header "LDZFAttributedStringConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}
