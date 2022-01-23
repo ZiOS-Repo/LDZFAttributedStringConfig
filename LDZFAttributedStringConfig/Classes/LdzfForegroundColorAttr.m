@@ -1,14 +1,14 @@
 //
-//  IUForegroundColorAttrConfig.m
-//  CRJAttributedStringConfig_Example
+//  LdzfForegroundColorAttr.m
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUForegroundColorAttrConfig.h"
+#import "LdzfForegroundColorAttr.h"
 
-@implementation IUForegroundColorAttrConfig
+@implementation LdzfForegroundColorAttr
 - (NSString *)attributeName {
     
     return NSForegroundColorAttributeName;
@@ -28,7 +28,7 @@
 
 + (instancetype)configWithColor:(UIColor *)color range:(NSRange)range {
     
-    IUForegroundColorAttrConfig *config = [[self class] new];
+    LdzfForegroundColorAttr *config = [[self class] new];
     config.color                           = color;
     config.effectiveStringRange            = range;
     
@@ -37,7 +37,7 @@
 
 + (instancetype)configWithColor:(UIColor *)color {
     
-    IUForegroundColorAttrConfig *config = [[self class] new];
+    LdzfForegroundColorAttr *config = [[self class] new];
     config.color                           = color;
     
     return config;

@@ -1,16 +1,16 @@
 //
-//  IUKernAttrConfig.h
-//  CRJAttributedStringConfig_Example
+//  LdzfKernAttr.h
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //  字间距
 
-#import "IUBaseAttrStringConfig.h"
+#import "LdzfAttrStringConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IUKernAttrConfig : IUBaseAttrStringConfig
+@interface LdzfKernAttr : LdzfAttrStringConfig
 @property (nonatomic, strong) NSNumber *kern;
 
 + (instancetype)configWithKern:(NSNumber *)kern range:(NSRange)range;

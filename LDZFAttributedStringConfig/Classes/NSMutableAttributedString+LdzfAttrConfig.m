@@ -1,28 +1,28 @@
 //
-//  NSMutableAttributedString+IUAttrConfig.m
-//  CRJAttributedStringConfig_Example
+//  NSMutableAttributedString+LdzfAttrConfig.m
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "NSMutableAttributedString+IUAttrConfig.h"
+#import "NSMutableAttributedString+LdzfAttrConfig.h"
 
-@implementation NSMutableAttributedString (IUAttrConfig)
-- (void)crj_addStringAttribute:(IUBaseAttrStringConfig *)stringAttribute {
+@implementation NSMutableAttributedString (LdzfAttrConfig)
+- (void)ldzf_addStringAttribute:(LdzfAttrStringConfig *)stringAttribute {
     
     [self addAttribute:stringAttribute.attributeName
                  value:stringAttribute.attributeValue
                  range:stringAttribute.effectiveStringRange];
 }
 
-- (void)crj_removeStringAttribute:(IUBaseAttrStringConfig *)stringAttribute {
+- (void)ldzf_removeStringAttribute:(LdzfAttrStringConfig *)stringAttribute {
     
     [self removeAttribute:stringAttribute.attributeName
                     range:stringAttribute.effectiveStringRange];
 }
 
-+ (instancetype)crj_mutableAttributedStringWithString:(NSString *)string config:(void (^)(NSString *string, NSMutableArray <IUBaseAttrStringConfig *> *configs))configBlock {
++ (instancetype)ldzf_mutableAttributedStringWithString:(NSString *)string config:(void (^)(NSString *string, NSMutableArray <LdzfAttrStringConfig *> *configs))configBlock {
     
     NSMutableAttributedString *atbString = [[NSMutableAttributedString alloc] initWithString:string];
     NSMutableArray            *array     = nil;
@@ -33,9 +33,9 @@
         configBlock(string, array);
     }
     
-    [array enumerateObjectsUsingBlock:^(IUBaseAttrStringConfig *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [array enumerateObjectsUsingBlock:^(LdzfAttrStringConfig *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
-        [atbString crj_addStringAttribute:obj];
+        [atbString ldzf_addStringAttribute:obj];
     }];
     
     return atbString;

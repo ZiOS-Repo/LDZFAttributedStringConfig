@@ -1,16 +1,16 @@
 //
-//  IUParagraphAttrConfig.h
-//  CRJAttributedStringConfig_Example
+//  LdzfParagraphAttr.h
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //  段落
 
-#import "IUBaseAttrStringConfig.h"
+#import "LdzfAttrStringConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IUParagraphAttrConfig : IUBaseAttrStringConfig
+@interface LdzfParagraphAttr : LdzfAttrStringConfig
 @property (nonatomic, strong) NSParagraphStyle *paragraphStyle;
 
 + (instancetype)configWithParagraphStyle:(NSParagraphStyle *)paragraphStyle range:(NSRange)range;

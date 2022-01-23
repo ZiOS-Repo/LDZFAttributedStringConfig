@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0075A52F598A29732E5EB016CE6D0423 /* LDZFAttributedStringConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2BF7A4DF77CFB120831CA2B4C3ED12 /* LDZFAttributedStringConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		027734694152823316F21644201CEDB4 /* LdzfForegroundColorAttr.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D59AF36A7B77AF6FF8BCA7E9E7C82F /* LdzfForegroundColorAttr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032C078C24FF2A48675589D1D6174F15 /* LDZFAttributedStringConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF87811E5FC303B103E87E9EC6EC258 /* LDZFAttributedStringConfig-dummy.m */; };
+		08869CF65BE31C5B2BCF5D3BF975ED33 /* LdzfParagraphAttr.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E54BF2FA1CDAD2D09AA50097D6F71EF /* LdzfParagraphAttr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A835718E4F1A17EBA8F78722523FD90 /* Pods-LDZFAttributedStringConfig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CFD562CCA0B6AA34FC03AF091E65A /* Pods-LDZFAttributedStringConfig_Tests-dummy.m */; };
-		1203AF2A0A70C4B7035D0270439EE293 /* IUParagraphAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A79A30D5710A48555797B40741B384A2 /* IUParagraphAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BC690A5C93BE83F5CD8186E145C8260 /* IUParagraphAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A49283B186B10D9AF66F127D69F6388B /* IUParagraphAttrConfig.m */; };
-		2F266CF62B5BCBEDC39ED3BB203C020E /* IUKernAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BE464A77B93F652497E5BE396D27BDE3 /* IUKernAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4607A5A88C0441E6255ED8BBB62C2F71 /* LDZFAttributedStringConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6883A03617414F2E813198F50552D9F3 /* LDZFAttributedStringConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405280230CBB955D9E25066EAF1592A2 /* LdzfKernAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = 487EF9F3491789D8DD32F89D3BDDC90B /* LdzfKernAttr.m */; };
+		43039C343EDACDD393F031343FEAE90C /* LdzfFontAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D7FF5CEA2BDD08E2F5EF3641567963 /* LdzfFontAttr.m */; };
+		4576C7827238B96868816A1AE76F13D0 /* LdzfKernAttr.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C438BFA7B4FA04EB640765418C3B1C /* LdzfKernAttr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482BC335D0C7148A19A90A3A11620BE9 /* NSAttributedString+LdzfAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0196561B7221C0C227844955AD4BBEE2 /* NSAttributedString+LdzfAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55D27EE6F208EAFCC8CF5F8197D46D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		65C2AC0AB2BF1D76E85E57D373068EF1 /* IUBaseAttrStringConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE03C1CFDB14AAB591532FE6E22B43F /* IUBaseAttrStringConfig.m */; };
-		6B3FA38DA3CF357CE8C92781E12603AD /* NSString+IUAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699BF0FF8A30C9D07AD0793BAD45FBF /* NSString+IUAttrConfig.m */; };
-		708926B99B5CAE13CB01403F4ECBF47F /* IUBaseAttrStringConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B04FB8B80765EFD39EDAB0B2D2CB675 /* IUBaseAttrStringConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		770FE22EF9F95C97CB6FFA95ADC0F6B2 /* NSAttributedString+IUAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 225364E2298B47FDAC796ECB92CC0CB7 /* NSAttributedString+IUAttrConfig.m */; };
-		851E0A36314B362F911C96D8E424FC6B /* NSMutableAttributedString+IUAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 774BCEFC5480CB3A3F4EBCEED23E3B0E /* NSMutableAttributedString+IUAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A6BEF0C81EE3834CC688FD53CEBF939 /* IUKernAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2726D8DE10B0972BA40DD49EB715CB9C /* IUKernAttrConfig.m */; };
+		5FA57ABD215ED6721D12FB1FD725AEE3 /* LdzfParagraphAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = C665CF41187280FAD57320CE68002290 /* LdzfParagraphAttr.m */; };
+		6FC3C000519070B7E61EF3E4B9DBBAD6 /* LdzfFontAttr.h in Headers */ = {isa = PBXBuildFile; fileRef = B40193234819AE7C4999491550DE211A /* LdzfFontAttr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBE1AFEB1FF44306DB954D1D1C035F3 /* NSMutableAttributedString+LdzfAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3DE2461C04214ABED0BA1F46D5F25 /* NSMutableAttributedString+LdzfAttrConfig.m */; };
+		80A6876B409820C579E4EF939C9D774D /* NSMutableAttributedString+LdzfAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 97979BA94962FE17951944671DDD5906 /* NSMutableAttributedString+LdzfAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91EFC85403AF73434A8AA32D55B3C990 /* Pods-LDZFAttributedStringConfig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A423769FDB93BC0F365ABDE61ACA3 /* Pods-LDZFAttributedStringConfig_Example-dummy.m */; };
 		96E7C47481A604221003A1D88A0933C8 /* Pods-LDZFAttributedStringConfig_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24FBA4C6020AF144094CDE26E59EDFB /* Pods-LDZFAttributedStringConfig_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96F1C3B2A5C52A7FABC31FB4393321F8 /* IUFontAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B81F44EEC33A939DF6D87F508D21091 /* IUFontAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97CDF25198B83B5C7D3CB268A8600187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		98F8E13BCCEB88126D507133A53F3C00 /* IUFontAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAF02001B514B6E2BDC6C3921D2770 /* IUFontAttrConfig.m */; };
-		9AE39890B414CFCBD1271FAC4BA30AC2 /* NSAttributedString+IUAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D9892C2403682487782D4C6CDF91F6 /* NSAttributedString+IUAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F06B2DD93E258ADEC316B66E6962F4 /* NSMutableAttributedString+IUAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E936DB0B75B8E1FBBC626B35B1AFBE /* NSMutableAttributedString+IUAttrConfig.m */; };
-		A4FD4144C459E05C43D7E23BD5593B0C /* NSString+IUAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DBB5BF65507AB79A68E0F7B7FE1592 /* NSString+IUAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A138483F045F3D811D9243B0D1AD1E25 /* LdzfAttrStringConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BDCD0ED482A8CD63AD6D0BFDC01CE5 /* LdzfAttrStringConfig.m */; };
+		A8522D96A918BC87E45174A9FC7D5E6D /* LdzfForegroundColorAttr.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9EA829F1223809CB2AC8B8D1EB216 /* LdzfForegroundColorAttr.m */; };
+		B426C51C564DC51831FD907C712B4CD0 /* NSString+LdzfAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B507ABEAE813256ADEAFD5BEA5031F3 /* NSString+LdzfAttrConfig.m */; };
 		BB471F96A6D38C1A316CE450543C35BC /* Pods-LDZFAttributedStringConfig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A89C95BEE39AE5437A3AFE9AE7CABDE3 /* Pods-LDZFAttributedStringConfig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9438B5EB314591DE851E8A59096402F /* IUForegroundColorAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723C068CE2CA7DC1BD8DE92B3FAE47E /* IUForegroundColorAttrConfig.m */; };
-		CA4AEB9CD6D69E776E44401520A86E75 /* LDZFAttributedStringConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A9D053199C1FED0A3AE96015F0CDD /* LDZFAttributedStringConfig-dummy.m */; };
-		E399003AD5ABB38BA0B12EE321FD9886 /* LDZFAttributedStringConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECFD1FB0CEDEA832044854A3493E545 /* LDZFAttributedStringConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E57CB4EFC3C9A11B9AC44D562D6594BA /* IUForegroundColorAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C96A976F60CF677C6066E961FAE5408 /* IUForegroundColorAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C874A41D66AA555F3BC04BDEDF879049 /* LdzfAttrStringConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D46C8F7204BD495170DA7332481294C /* LdzfAttrStringConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5ACBD23531427458A56DADB2CEC0FF /* NSString+LdzfAttrConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E12249D9ADBAC09628535F0807D25F87 /* NSString+LdzfAttrConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE88E8F42246B390EFA10ECD13BB0AAF /* NSAttributedString+LdzfAttrConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5E69755B6484BDC76F7434419A8F2 /* NSAttributedString+LdzfAttrConfig.m */; };
 		EF91F1D0360A972B8D992612F8FA8B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F6D930A64909253D3EB67C765DA289A3 /* LDZFAttributedStringConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A53107A7D25FD00AED2194549E72156A /* LDZFAttributedStringConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,54 +53,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C438BFA7B4FA04EB640765418C3B1C /* LdzfKernAttr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfKernAttr.h; path = LDZFAttributedStringConfig/Classes/LdzfKernAttr.h; sourceTree = "<group>"; };
+		0196561B7221C0C227844955AD4BBEE2 /* NSAttributedString+LdzfAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+LdzfAttrConfig.h"; path = "LDZFAttributedStringConfig/Classes/NSAttributedString+LdzfAttrConfig.h"; sourceTree = "<group>"; };
 		0811580273A831F573757C55AEE80B45 /* Pods-LDZFAttributedStringConfig_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFAttributedStringConfig_Tests-Info.plist"; sourceTree = "<group>"; };
-		0AAAF02001B514B6E2BDC6C3921D2770 /* IUFontAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUFontAttrConfig.m; path = LDZFAttributedStringConfig/Classes/IUFontAttrConfig.m; sourceTree = "<group>"; };
-		0B04FB8B80765EFD39EDAB0B2D2CB675 /* IUBaseAttrStringConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUBaseAttrStringConfig.h; path = LDZFAttributedStringConfig/Classes/IUBaseAttrStringConfig.h; sourceTree = "<group>"; };
-		0C96A976F60CF677C6066E961FAE5408 /* IUForegroundColorAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUForegroundColorAttrConfig.h; path = LDZFAttributedStringConfig/Classes/IUForegroundColorAttrConfig.h; sourceTree = "<group>"; };
-		225364E2298B47FDAC796ECB92CC0CB7 /* NSAttributedString+IUAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+IUAttrConfig.m"; path = "LDZFAttributedStringConfig/Classes/NSAttributedString+IUAttrConfig.m"; sourceTree = "<group>"; };
+		0B507ABEAE813256ADEAFD5BEA5031F3 /* NSString+LdzfAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LdzfAttrConfig.m"; path = "LDZFAttributedStringConfig/Classes/NSString+LdzfAttrConfig.m"; sourceTree = "<group>"; };
+		0D46C8F7204BD495170DA7332481294C /* LdzfAttrStringConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfAttrStringConfig.h; path = LDZFAttributedStringConfig/Classes/LdzfAttrStringConfig.h; sourceTree = "<group>"; };
+		13F9EA829F1223809CB2AC8B8D1EB216 /* LdzfForegroundColorAttr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfForegroundColorAttr.m; path = LDZFAttributedStringConfig/Classes/LdzfForegroundColorAttr.m; sourceTree = "<group>"; };
+		1FF87811E5FC303B103E87E9EC6EC258 /* LDZFAttributedStringConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFAttributedStringConfig-dummy.m"; sourceTree = "<group>"; };
 		22A063B5B7504AA6A453C049DF567DA9 /* Pods-LDZFAttributedStringConfig_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFAttributedStringConfig_Example"; path = Pods_LDZFAttributedStringConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AACC62FC313F18D1D789138E9D71C5 /* Pods-LDZFAttributedStringConfig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFAttributedStringConfig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2726D8DE10B0972BA40DD49EB715CB9C /* IUKernAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUKernAttrConfig.m; path = LDZFAttributedStringConfig/Classes/IUKernAttrConfig.m; sourceTree = "<group>"; };
-		27DBB5BF65507AB79A68E0F7B7FE1592 /* NSString+IUAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+IUAttrConfig.h"; path = "LDZFAttributedStringConfig/Classes/NSString+IUAttrConfig.h"; sourceTree = "<group>"; };
 		2F05C55CBEAACD533555D675DC612902 /* Pods-LDZFAttributedStringConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFAttributedStringConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		30E936DB0B75B8E1FBBC626B35B1AFBE /* NSMutableAttributedString+IUAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+IUAttrConfig.m"; path = "LDZFAttributedStringConfig/Classes/NSMutableAttributedString+IUAttrConfig.m"; sourceTree = "<group>"; };
-		315434000477A5AECB8C9F25AA37B48A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3699BF0FF8A30C9D07AD0793BAD45FBF /* NSString+IUAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IUAttrConfig.m"; path = "LDZFAttributedStringConfig/Classes/NSString+IUAttrConfig.m"; sourceTree = "<group>"; };
-		375B3221BDB4715A6368E9C9238E66A6 /* LDZFAttributedStringConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFAttributedStringConfig-Info.plist"; sourceTree = "<group>"; };
 		399CFD562CCA0B6AA34FC03AF091E65A /* Pods-LDZFAttributedStringConfig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFAttributedStringConfig_Tests-dummy.m"; sourceTree = "<group>"; };
-		3B81F44EEC33A939DF6D87F508D21091 /* IUFontAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUFontAttrConfig.h; path = LDZFAttributedStringConfig/Classes/IUFontAttrConfig.h; sourceTree = "<group>"; };
-		3F5726C6527E5C784B9F61D585C2579D /* LDZFAttributedStringConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFAttributedStringConfig-prefix.pch"; sourceTree = "<group>"; };
+		3AB5E69755B6484BDC76F7434419A8F2 /* NSAttributedString+LdzfAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+LdzfAttrConfig.m"; path = "LDZFAttributedStringConfig/Classes/NSAttributedString+LdzfAttrConfig.m"; sourceTree = "<group>"; };
+		3FC9C6B0AB40A22C7B9EB075C8346CBC /* LDZFAttributedStringConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFAttributedStringConfig.modulemap; sourceTree = "<group>"; };
+		487EF9F3491789D8DD32F89D3BDDC90B /* LdzfKernAttr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfKernAttr.m; path = LDZFAttributedStringConfig/Classes/LdzfKernAttr.m; sourceTree = "<group>"; };
+		5B2BF7A4DF77CFB120831CA2B4C3ED12 /* LDZFAttributedStringConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFAttributedStringConfig.h; path = LDZFAttributedStringConfig/Classes/LDZFAttributedStringConfig.h; sourceTree = "<group>"; };
 		5C9BA619C9746520807F9F6D1E4FAF69 /* Pods-LDZFAttributedStringConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFAttributedStringConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5ECFD1FB0CEDEA832044854A3493E545 /* LDZFAttributedStringConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFAttributedStringConfig-umbrella.h"; sourceTree = "<group>"; };
-		65F29D55A4FAF3A9DB830586A265F75B /* LDZFAttributedStringConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFAttributedStringConfig.release.xcconfig; sourceTree = "<group>"; };
+		64BDCD0ED482A8CD63AD6D0BFDC01CE5 /* LdzfAttrStringConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfAttrStringConfig.m; path = LDZFAttributedStringConfig/Classes/LdzfAttrStringConfig.m; sourceTree = "<group>"; };
 		66BE7F5149118E942AE8CEFAA32C7672 /* Pods-LDZFAttributedStringConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFAttributedStringConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6723C068CE2CA7DC1BD8DE92B3FAE47E /* IUForegroundColorAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUForegroundColorAttrConfig.m; path = LDZFAttributedStringConfig/Classes/IUForegroundColorAttrConfig.m; sourceTree = "<group>"; };
-		6883A03617414F2E813198F50552D9F3 /* LDZFAttributedStringConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFAttributedStringConfig.h; path = LDZFAttributedStringConfig/Classes/LDZFAttributedStringConfig.h; sourceTree = "<group>"; };
+		6BD3DE2461C04214ABED0BA1F46D5F25 /* NSMutableAttributedString+LdzfAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+LdzfAttrConfig.m"; path = "LDZFAttributedStringConfig/Classes/NSMutableAttributedString+LdzfAttrConfig.m"; sourceTree = "<group>"; };
 		6D1513AD3D15D6CC6DA61861C1EB666F /* Pods-LDZFAttributedStringConfig_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFAttributedStringConfig_Tests"; path = Pods_LDZFAttributedStringConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D59AF36A7B77AF6FF8BCA7E9E7C82F /* LdzfForegroundColorAttr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfForegroundColorAttr.h; path = LDZFAttributedStringConfig/Classes/LdzfForegroundColorAttr.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		774BCEFC5480CB3A3F4EBCEED23E3B0E /* NSMutableAttributedString+IUAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+IUAttrConfig.h"; path = "LDZFAttributedStringConfig/Classes/NSMutableAttributedString+IUAttrConfig.h"; sourceTree = "<group>"; };
 		7895A886D36CCEE36D206367321BDBE7 /* Pods-LDZFAttributedStringConfig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFAttributedStringConfig_Tests.modulemap"; sourceTree = "<group>"; };
 		81A7ADE713223E55896B0954AE873A08 /* LDZFAttributedStringConfig */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDZFAttributedStringConfig; path = LDZFAttributedStringConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9527E78AE1183AE3D74CE65759E5FD65 /* LDZFAttributedStringConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFAttributedStringConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F29A1ACD0B5245459B8CD833EF90AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97979BA94962FE17951944671DDD5906 /* NSMutableAttributedString+LdzfAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+LdzfAttrConfig.h"; path = "LDZFAttributedStringConfig/Classes/NSMutableAttributedString+LdzfAttrConfig.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E54BF2FA1CDAD2D09AA50097D6F71EF /* LdzfParagraphAttr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfParagraphAttr.h; path = LDZFAttributedStringConfig/Classes/LdzfParagraphAttr.h; sourceTree = "<group>"; };
 		A11A423769FDB93BC0F365ABDE61ACA3 /* Pods-LDZFAttributedStringConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFAttributedStringConfig_Example-dummy.m"; sourceTree = "<group>"; };
 		A1657879F764877A14E8739652D78D3D /* Pods-LDZFAttributedStringConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFAttributedStringConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A24FBA4C6020AF144094CDE26E59EDFB /* Pods-LDZFAttributedStringConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFAttributedStringConfig_Example-umbrella.h"; sourceTree = "<group>"; };
-		A49283B186B10D9AF66F127D69F6388B /* IUParagraphAttrConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUParagraphAttrConfig.m; path = LDZFAttributedStringConfig/Classes/IUParagraphAttrConfig.m; sourceTree = "<group>"; };
+		A53107A7D25FD00AED2194549E72156A /* LDZFAttributedStringConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFAttributedStringConfig-umbrella.h"; sourceTree = "<group>"; };
 		A7735444A65063115C723E65E27D9693 /* Pods-LDZFAttributedStringConfig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDZFAttributedStringConfig_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A79A30D5710A48555797B40741B384A2 /* IUParagraphAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUParagraphAttrConfig.h; path = LDZFAttributedStringConfig/Classes/IUParagraphAttrConfig.h; sourceTree = "<group>"; };
 		A89C95BEE39AE5437A3AFE9AE7CABDE3 /* Pods-LDZFAttributedStringConfig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFAttributedStringConfig_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ACE03C1CFDB14AAB591532FE6E22B43F /* IUBaseAttrStringConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUBaseAttrStringConfig.m; path = LDZFAttributedStringConfig/Classes/IUBaseAttrStringConfig.m; sourceTree = "<group>"; };
+		A9D7FF5CEA2BDD08E2F5EF3641567963 /* LdzfFontAttr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfFontAttr.m; path = LDZFAttributedStringConfig/Classes/LdzfFontAttr.m; sourceTree = "<group>"; };
+		A9ECA6B4207034105ACDD75E57776334 /* LDZFAttributedStringConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFAttributedStringConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B40193234819AE7C4999491550DE211A /* LdzfFontAttr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfFontAttr.h; path = LDZFAttributedStringConfig/Classes/LdzfFontAttr.h; sourceTree = "<group>"; };
+		B5949CD4C275E4A24415852977FFE1D4 /* LDZFAttributedStringConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFAttributedStringConfig-prefix.pch"; sourceTree = "<group>"; };
 		BBA343126B0B3A2F9D6FA1C0356ED06E /* Pods-LDZFAttributedStringConfig_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFAttributedStringConfig_Example.modulemap"; sourceTree = "<group>"; };
-		BE464A77B93F652497E5BE396D27BDE3 /* IUKernAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUKernAttrConfig.h; path = LDZFAttributedStringConfig/Classes/IUKernAttrConfig.h; sourceTree = "<group>"; };
-		C4D9892C2403682487782D4C6CDF91F6 /* NSAttributedString+IUAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+IUAttrConfig.h"; path = "LDZFAttributedStringConfig/Classes/NSAttributedString+IUAttrConfig.h"; sourceTree = "<group>"; };
+		C665CF41187280FAD57320CE68002290 /* LdzfParagraphAttr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfParagraphAttr.m; path = LDZFAttributedStringConfig/Classes/LdzfParagraphAttr.m; sourceTree = "<group>"; };
 		CA0E07F0565E3577F2C9FDEDDF68CC19 /* Pods-LDZFAttributedStringConfig_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFAttributedStringConfig_Example-Info.plist"; sourceTree = "<group>"; };
-		CD0A9D053199C1FED0A3AE96015F0CDD /* LDZFAttributedStringConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFAttributedStringConfig-dummy.m"; sourceTree = "<group>"; };
 		CD2534322FCDAFCBD22385C17A5FD7E0 /* Pods-LDZFAttributedStringConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFAttributedStringConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5A48596C702186FA55AAD75E8DA6789 /* LDZFAttributedStringConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFAttributedStringConfig.debug.xcconfig; sourceTree = "<group>"; };
-		EBAED47B88B7762C3A8D58F6BA7B7D45 /* LDZFAttributedStringConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFAttributedStringConfig.modulemap; sourceTree = "<group>"; };
+		DBA67DDDFA2B0D8A4979F2B0A34DD57B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E12249D9ADBAC09628535F0807D25F87 /* NSString+LdzfAttrConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LdzfAttrConfig.h"; path = "LDZFAttributedStringConfig/Classes/NSString+LdzfAttrConfig.h"; sourceTree = "<group>"; };
+		E87550E28E4D754CE610C9795C779A3D /* LDZFAttributedStringConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFAttributedStringConfig-Info.plist"; sourceTree = "<group>"; };
+		EFD77A644FF235526A62CE803DAA143D /* LDZFAttributedStringConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFAttributedStringConfig.release.xcconfig; sourceTree = "<group>"; };
+		F30AB0A7895DBB5A07AC3E1C3192AC9A /* LDZFAttributedStringConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFAttributedStringConfig.debug.xcconfig; sourceTree = "<group>"; };
 		F55E6F79E0FB58DC884B6F8E05F40D42 /* Pods-LDZFAttributedStringConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFAttributedStringConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC9E6797E3968629E0CEDA94F9017C06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FCE988E0BADBB035B09CD15132A7D514 /* Pods-LDZFAttributedStringConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFAttributedStringConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,12 +132,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		148D84858E46D805FA506F2ED6D33793 /* Pod */ = {
+		3642DBAB81B6C047D52DB396C6EF3DBE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9527E78AE1183AE3D74CE65759E5FD65 /* LDZFAttributedStringConfig.podspec */,
-				FC9E6797E3968629E0CEDA94F9017C06 /* LICENSE */,
-				315434000477A5AECB8C9F25AA37B48A /* README.md */,
+				A9ECA6B4207034105ACDD75E57776334 /* LDZFAttributedStringConfig.podspec */,
+				95F29A1ACD0B5245459B8CD833EF90AC /* LICENSE */,
+				DBA67DDDFA2B0D8A4979F2B0A34DD57B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 		564C555EDF8F3E9676FBADC002CAD20A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9388C8D0A051F302A369FA561709106F /* LDZFAttributedStringConfig */,
+				7F8943AE192A4E43B0ED1E12A7F695E9 /* LDZFAttributedStringConfig */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -184,21 +184,6 @@
 			path = "Target Support Files/Pods-LDZFAttributedStringConfig_Example";
 			sourceTree = "<group>";
 		};
-		690CCA24B54C14D3C1E707BAAC0C97A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBAED47B88B7762C3A8D58F6BA7B7D45 /* LDZFAttributedStringConfig.modulemap */,
-				CD0A9D053199C1FED0A3AE96015F0CDD /* LDZFAttributedStringConfig-dummy.m */,
-				375B3221BDB4715A6368E9C9238E66A6 /* LDZFAttributedStringConfig-Info.plist */,
-				3F5726C6527E5C784B9F61D585C2579D /* LDZFAttributedStringConfig-prefix.pch */,
-				5ECFD1FB0CEDEA832044854A3493E545 /* LDZFAttributedStringConfig-umbrella.h */,
-				E5A48596C702186FA55AAD75E8DA6789 /* LDZFAttributedStringConfig.debug.xcconfig */,
-				65F29D55A4FAF3A9DB830586A265F75B /* LDZFAttributedStringConfig.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LDZFAttributedStringConfig";
-			sourceTree = "<group>";
-		};
 		76C406EF9F1028D30BBB1DC794B2AB82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,28 +194,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9388C8D0A051F302A369FA561709106F /* LDZFAttributedStringConfig */ = {
+		7D0860389ABE74FAD803A74CE768DC73 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B04FB8B80765EFD39EDAB0B2D2CB675 /* IUBaseAttrStringConfig.h */,
-				ACE03C1CFDB14AAB591532FE6E22B43F /* IUBaseAttrStringConfig.m */,
-				3B81F44EEC33A939DF6D87F508D21091 /* IUFontAttrConfig.h */,
-				0AAAF02001B514B6E2BDC6C3921D2770 /* IUFontAttrConfig.m */,
-				0C96A976F60CF677C6066E961FAE5408 /* IUForegroundColorAttrConfig.h */,
-				6723C068CE2CA7DC1BD8DE92B3FAE47E /* IUForegroundColorAttrConfig.m */,
-				BE464A77B93F652497E5BE396D27BDE3 /* IUKernAttrConfig.h */,
-				2726D8DE10B0972BA40DD49EB715CB9C /* IUKernAttrConfig.m */,
-				A79A30D5710A48555797B40741B384A2 /* IUParagraphAttrConfig.h */,
-				A49283B186B10D9AF66F127D69F6388B /* IUParagraphAttrConfig.m */,
-				6883A03617414F2E813198F50552D9F3 /* LDZFAttributedStringConfig.h */,
-				C4D9892C2403682487782D4C6CDF91F6 /* NSAttributedString+IUAttrConfig.h */,
-				225364E2298B47FDAC796ECB92CC0CB7 /* NSAttributedString+IUAttrConfig.m */,
-				774BCEFC5480CB3A3F4EBCEED23E3B0E /* NSMutableAttributedString+IUAttrConfig.h */,
-				30E936DB0B75B8E1FBBC626B35B1AFBE /* NSMutableAttributedString+IUAttrConfig.m */,
-				27DBB5BF65507AB79A68E0F7B7FE1592 /* NSString+IUAttrConfig.h */,
-				3699BF0FF8A30C9D07AD0793BAD45FBF /* NSString+IUAttrConfig.m */,
-				148D84858E46D805FA506F2ED6D33793 /* Pod */,
-				690CCA24B54C14D3C1E707BAAC0C97A3 /* Support Files */,
+				3FC9C6B0AB40A22C7B9EB075C8346CBC /* LDZFAttributedStringConfig.modulemap */,
+				1FF87811E5FC303B103E87E9EC6EC258 /* LDZFAttributedStringConfig-dummy.m */,
+				E87550E28E4D754CE610C9795C779A3D /* LDZFAttributedStringConfig-Info.plist */,
+				B5949CD4C275E4A24415852977FFE1D4 /* LDZFAttributedStringConfig-prefix.pch */,
+				A53107A7D25FD00AED2194549E72156A /* LDZFAttributedStringConfig-umbrella.h */,
+				F30AB0A7895DBB5A07AC3E1C3192AC9A /* LDZFAttributedStringConfig.debug.xcconfig */,
+				EFD77A644FF235526A62CE803DAA143D /* LDZFAttributedStringConfig.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDZFAttributedStringConfig";
+			sourceTree = "<group>";
+		};
+		7F8943AE192A4E43B0ED1E12A7F695E9 /* LDZFAttributedStringConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5B2BF7A4DF77CFB120831CA2B4C3ED12 /* LDZFAttributedStringConfig.h */,
+				0D46C8F7204BD495170DA7332481294C /* LdzfAttrStringConfig.h */,
+				64BDCD0ED482A8CD63AD6D0BFDC01CE5 /* LdzfAttrStringConfig.m */,
+				B40193234819AE7C4999491550DE211A /* LdzfFontAttr.h */,
+				A9D7FF5CEA2BDD08E2F5EF3641567963 /* LdzfFontAttr.m */,
+				72D59AF36A7B77AF6FF8BCA7E9E7C82F /* LdzfForegroundColorAttr.h */,
+				13F9EA829F1223809CB2AC8B8D1EB216 /* LdzfForegroundColorAttr.m */,
+				00C438BFA7B4FA04EB640765418C3B1C /* LdzfKernAttr.h */,
+				487EF9F3491789D8DD32F89D3BDDC90B /* LdzfKernAttr.m */,
+				9E54BF2FA1CDAD2D09AA50097D6F71EF /* LdzfParagraphAttr.h */,
+				C665CF41187280FAD57320CE68002290 /* LdzfParagraphAttr.m */,
+				0196561B7221C0C227844955AD4BBEE2 /* NSAttributedString+LdzfAttrConfig.h */,
+				3AB5E69755B6484BDC76F7434419A8F2 /* NSAttributedString+LdzfAttrConfig.m */,
+				97979BA94962FE17951944671DDD5906 /* NSMutableAttributedString+LdzfAttrConfig.h */,
+				6BD3DE2461C04214ABED0BA1F46D5F25 /* NSMutableAttributedString+LdzfAttrConfig.m */,
+				E12249D9ADBAC09628535F0807D25F87 /* NSString+LdzfAttrConfig.h */,
+				0B507ABEAE813256ADEAFD5BEA5031F3 /* NSString+LdzfAttrConfig.m */,
+				3642DBAB81B6C047D52DB396C6EF3DBE /* Pod */,
+				7D0860389ABE74FAD803A74CE768DC73 /* Support Files */,
 			);
 			name = LDZFAttributedStringConfig;
 			path = ../..;
@@ -274,23 +274,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		017F50DDECEB8D11EEB0DC6713C9C887 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				708926B99B5CAE13CB01403F4ECBF47F /* IUBaseAttrStringConfig.h in Headers */,
-				96F1C3B2A5C52A7FABC31FB4393321F8 /* IUFontAttrConfig.h in Headers */,
-				E57CB4EFC3C9A11B9AC44D562D6594BA /* IUForegroundColorAttrConfig.h in Headers */,
-				2F266CF62B5BCBEDC39ED3BB203C020E /* IUKernAttrConfig.h in Headers */,
-				1203AF2A0A70C4B7035D0270439EE293 /* IUParagraphAttrConfig.h in Headers */,
-				4607A5A88C0441E6255ED8BBB62C2F71 /* LDZFAttributedStringConfig.h in Headers */,
-				E399003AD5ABB38BA0B12EE321FD9886 /* LDZFAttributedStringConfig-umbrella.h in Headers */,
-				9AE39890B414CFCBD1271FAC4BA30AC2 /* NSAttributedString+IUAttrConfig.h in Headers */,
-				851E0A36314B362F911C96D8E424FC6B /* NSMutableAttributedString+IUAttrConfig.h in Headers */,
-				A4FD4144C459E05C43D7E23BD5593B0C /* NSString+IUAttrConfig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		19066FF4ECFB09709F4774F0B9F47A69 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +287,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E7C47481A604221003A1D88A0933C8 /* Pods-LDZFAttributedStringConfig_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC598C08542D23D9553ACD8875F5962B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0075A52F598A29732E5EB016CE6D0423 /* LDZFAttributedStringConfig.h in Headers */,
+				F6D930A64909253D3EB67C765DA289A3 /* LDZFAttributedStringConfig-umbrella.h in Headers */,
+				C874A41D66AA555F3BC04BDEDF879049 /* LdzfAttrStringConfig.h in Headers */,
+				6FC3C000519070B7E61EF3E4B9DBBAD6 /* LdzfFontAttr.h in Headers */,
+				027734694152823316F21644201CEDB4 /* LdzfForegroundColorAttr.h in Headers */,
+				4576C7827238B96868816A1AE76F13D0 /* LdzfKernAttr.h in Headers */,
+				08869CF65BE31C5B2BCF5D3BF975ED33 /* LdzfParagraphAttr.h in Headers */,
+				482BC335D0C7148A19A90A3A11620BE9 /* NSAttributedString+LdzfAttrConfig.h in Headers */,
+				80A6876B409820C579E4EF939C9D774D /* NSMutableAttributedString+LdzfAttrConfig.h in Headers */,
+				CB5ACBD23531427458A56DADB2CEC0FF /* NSString+LdzfAttrConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +352,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A39A9B3CEF388652058F846FF5E841 /* Build configuration list for PBXNativeTarget "LDZFAttributedStringConfig" */;
 			buildPhases = (
-				017F50DDECEB8D11EEB0DC6713C9C887 /* Headers */,
-				18871FBFFD62B260360A7DED29D80A3E /* Sources */,
+				FC598C08542D23D9553ACD8875F5962B /* Headers */,
+				5FD46C0141D6A5E03A4EDC0DF9407A7D /* Sources */,
 				17350E4A85F14D33A92BF472AF7C3415 /* Frameworks */,
 				5CB5A0A085D5C6FA45AA5D19763D253D /* Resources */,
 			);
@@ -428,27 +428,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18871FBFFD62B260360A7DED29D80A3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65C2AC0AB2BF1D76E85E57D373068EF1 /* IUBaseAttrStringConfig.m in Sources */,
-				98F8E13BCCEB88126D507133A53F3C00 /* IUFontAttrConfig.m in Sources */,
-				C9438B5EB314591DE851E8A59096402F /* IUForegroundColorAttrConfig.m in Sources */,
-				8A6BEF0C81EE3834CC688FD53CEBF939 /* IUKernAttrConfig.m in Sources */,
-				2BC690A5C93BE83F5CD8186E145C8260 /* IUParagraphAttrConfig.m in Sources */,
-				CA4AEB9CD6D69E776E44401520A86E75 /* LDZFAttributedStringConfig-dummy.m in Sources */,
-				770FE22EF9F95C97CB6FFA95ADC0F6B2 /* NSAttributedString+IUAttrConfig.m in Sources */,
-				A4F06B2DD93E258ADEC316B66E6962F4 /* NSMutableAttributedString+IUAttrConfig.m in Sources */,
-				6B3FA38DA3CF357CE8C92781E12603AD /* NSString+IUAttrConfig.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3C846B95550ECCB865E92085688206C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0A835718E4F1A17EBA8F78722523FD90 /* Pods-LDZFAttributedStringConfig_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD46C0141D6A5E03A4EDC0DF9407A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032C078C24FF2A48675589D1D6174F15 /* LDZFAttributedStringConfig-dummy.m in Sources */,
+				A138483F045F3D811D9243B0D1AD1E25 /* LdzfAttrStringConfig.m in Sources */,
+				43039C343EDACDD393F031343FEAE90C /* LdzfFontAttr.m in Sources */,
+				A8522D96A918BC87E45174A9FC7D5E6D /* LdzfForegroundColorAttr.m in Sources */,
+				405280230CBB955D9E25066EAF1592A2 /* LdzfKernAttr.m in Sources */,
+				5FA57ABD215ED6721D12FB1FD725AEE3 /* LdzfParagraphAttr.m in Sources */,
+				EE88E8F42246B390EFA10ECD13BB0AAF /* NSAttributedString+LdzfAttrConfig.m in Sources */,
+				7EBE1AFEB1FF44306DB954D1D1C035F3 /* NSMutableAttributedString+LdzfAttrConfig.m in Sources */,
+				B426C51C564DC51831FD907C712B4CD0 /* NSString+LdzfAttrConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +472,7 @@
 /* Begin XCBuildConfiguration section */
 		22CBAB479CA0CDFA6E37D02C4612CDF1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65F29D55A4FAF3A9DB830586A265F75B /* LDZFAttributedStringConfig.release.xcconfig */;
+			baseConfigurationReference = EFD77A644FF235526A62CE803DAA143D /* LDZFAttributedStringConfig.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -761,7 +761,7 @@
 		};
 		FC71E8CFC21E0481F82F339BACEC93A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5A48596C702186FA55AAD75E8DA6789 /* LDZFAttributedStringConfig.debug.xcconfig */;
+			baseConfigurationReference = F30AB0A7895DBB5A07AC3E1C3192AC9A /* LDZFAttributedStringConfig.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

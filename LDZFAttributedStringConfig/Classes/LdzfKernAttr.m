@@ -1,14 +1,14 @@
 //
-//  IUKernAttrConfig.m
-//  CRJAttributedStringConfig_Example
+//  LdzfKernAttr.m
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUKernAttrConfig.h"
+#import "LdzfKernAttr.h"
 
-@implementation IUKernAttrConfig
+@implementation LdzfKernAttr
 - (NSString *)attributeName {
     
     return NSKernAttributeName;
@@ -21,7 +21,7 @@
 
 + (instancetype)configWithKern:(NSNumber *)kern range:(NSRange)range {
     
-    IUKernAttrConfig *config = [[self class] new];
+    LdzfKernAttr *config = [[self class] new];
     config.kern                 = kern;
     config.effectiveStringRange = range;
     
@@ -30,7 +30,7 @@
 
 + (instancetype)configWithKern:(NSNumber *)kern {
     
-    IUKernAttrConfig *config = [[self class] new];
+    LdzfKernAttr *config = [[self class] new];
     config.kern                 = kern;
     
     return config;

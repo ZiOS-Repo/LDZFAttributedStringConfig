@@ -10,15 +10,15 @@
 #endif
 #endif
 
-#import "IUBaseAttrStringConfig.h"
-#import "IUFontAttrConfig.h"
-#import "IUForegroundColorAttrConfig.h"
-#import "IUKernAttrConfig.h"
-#import "IUParagraphAttrConfig.h"
 #import "LDZFAttributedStringConfig.h"
-#import "NSAttributedString+IUAttrConfig.h"
-#import "NSMutableAttributedString+IUAttrConfig.h"
-#import "NSString+IUAttrConfig.h"
+#import "LdzfAttrStringConfig.h"
+#import "LdzfFontAttr.h"
+#import "LdzfForegroundColorAttr.h"
+#import "LdzfKernAttr.h"
+#import "LdzfParagraphAttr.h"
+#import "NSAttributedString+LdzfAttrConfig.h"
+#import "NSMutableAttributedString+LdzfAttrConfig.h"
+#import "NSString+LdzfAttrConfig.h"
 
 FOUNDATION_EXPORT double LDZFAttributedStringConfigVersionNumber;
 FOUNDATION_EXPORT const unsigned char LDZFAttributedStringConfigVersionString[];

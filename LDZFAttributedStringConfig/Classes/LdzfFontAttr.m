@@ -1,14 +1,14 @@
 //
-//  IUFontAttrConfig.m
-//  CRJAttributedStringConfig_Example
+//  LdzfFontAttr.m
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUFontAttrConfig.h"
+#import "LdzfFontAttr.h"
 
-@implementation IUFontAttrConfig
+@implementation LdzfFontAttr
 - (NSString *)attributeName {
     
     return NSFontAttributeName;
@@ -28,7 +28,7 @@
 
 + (instancetype)configWithFont:(UIFont *)font range:(NSRange)range {
     
-    IUFontAttrConfig *config = [[self class] new];
+    LdzfFontAttr *config = [[self class] new];
     config.font                 = font;
     config.effectiveStringRange = range;
     
@@ -37,7 +37,7 @@
 
 + (instancetype)configWithFont:(UIFont *)font {
     
-    IUFontAttrConfig *config = [[self class] new];
+    LdzfFontAttr *config = [[self class] new];
     config.font                 = font;
     
     return config;

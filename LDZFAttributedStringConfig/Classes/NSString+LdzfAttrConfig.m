@@ -1,16 +1,16 @@
 //
-//  NSString+IUAttrConfig.m
-//  CRJAttributedStringConfig_Example
+//  NSString+LdzfAttrConfig.m
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "NSString+IUAttrConfig.h"
+#import "NSString+LdzfAttrConfig.h"
 
-@implementation NSString (IUAttrConfig)
+@implementation NSString (LdzfAttrConfig)
 
-- (NSMutableAttributedString *)crj_mutableAttributedStringWithStringAttributes:(NSArray <IUBaseAttrStringConfig *> *)attributes {
+- (NSMutableAttributedString *)ldzf_mutableAttributedStringWithStringAttributes:(NSArray <LdzfAttrStringConfig *> *)attributes {
     
     NSMutableAttributedString *attributedString = nil;
     
@@ -18,7 +18,7 @@
         
         attributedString = [[NSMutableAttributedString alloc] initWithString:self];
         
-        for (IUBaseAttrStringConfig *attribute in attributes) {
+        for (LdzfAttrStringConfig *attribute in attributes) {
             
             [attributedString addAttribute:[attribute attributeName]
                                      value:[attribute attributeValue]
@@ -29,7 +29,7 @@
     return attributedString;
 }
 
-- (NSAttributedString *)crj_attributedStringWithStringAttributes:(NSArray <IUBaseAttrStringConfig *> *)attributes {
+- (NSAttributedString *)ldzf_attributedStringWithStringAttributes:(NSArray <LdzfAttrStringConfig *> *)attributes {
     
     NSAttributedString *attributedString = nil;
     
@@ -37,7 +37,7 @@
         
         NSMutableDictionary *attributesDictionary = [NSMutableDictionary dictionary];
         
-        for (IUBaseAttrStringConfig *attribute in attributes) {
+        for (LdzfAttrStringConfig *attribute in attributes) {
             
             [attributesDictionary setObject:[attribute attributeValue]
                                      forKey:[attribute attributeName]];
@@ -49,7 +49,7 @@
     return attributedString;
 }
 
-- (NSAttributedString *)crj_attributedStringWithConfigs:(void (^)(NSMutableArray <IUBaseAttrStringConfig *> *configs))configBlock {
+- (NSAttributedString *)ldzf_attributedStringWithConfigs:(void (^)(NSMutableArray <LdzfAttrStringConfig *> *configs))configBlock {
     
     NSMutableArray      *array                = nil;
     NSMutableDictionary *attributesDictionary = nil;
@@ -61,7 +61,7 @@
         
         configBlock(array);
         
-        [array enumerateObjectsUsingBlock:^(IUBaseAttrStringConfig *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [array enumerateObjectsUsingBlock:^(LdzfAttrStringConfig *obj, NSUInteger idx, BOOL * _Nonnull stop) {
             
             [attributesDictionary setObject:obj.attributeValue forKey:obj.attributeName];
         }];

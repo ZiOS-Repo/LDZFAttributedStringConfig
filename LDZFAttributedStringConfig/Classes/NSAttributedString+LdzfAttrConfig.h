@@ -1,17 +1,17 @@
 //
-//  NSAttributedString+IUAttrConfig.h
-//  CRJAttributedStringConfig_Example
+//  NSAttributedString+LdzfAttrConfig.h
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "IUBaseAttrStringConfig.h"
+#import "LdzfAttrStringConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSAttributedString (IUAttrConfig)
+@interface NSAttributedString (LdzfAttrConfig)
 /**
  [构造器] 便利的设置不可变富文本对象
  
@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param configBlock 配置的AttributedStringConfig数组
  @return 富文本对象
  */
-+ (instancetype)crj_attributedStringWithString:(NSString *)string config:(void (^)(NSMutableArray <IUBaseAttrStringConfig *> *configs))configBlock;
++ (instancetype)ldzf_attributedStringWithString:(NSString *)string config:(void (^)(NSMutableArray <LdzfAttrStringConfig *> *configs))configBlock;
 
 @end
 

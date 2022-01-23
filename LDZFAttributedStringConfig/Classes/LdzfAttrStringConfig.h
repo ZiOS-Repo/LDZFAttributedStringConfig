@@ -1,6 +1,6 @@
 //
-//  IUBaseAttrStringConfig.h
-//  CRJAttributedStringConfig_Example
+//  LdzfAttrStringConfig.h
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IUBaseAttrStringConfig : NSObject
+@interface LdzfAttrStringConfig : NSObject
 @property (nonatomic, strong, readonly) NSString *attributeName;
 @property (nonatomic, strong, readonly) id        attributeValue;
 @property (nonatomic)                   NSRange   effectiveStringRange;

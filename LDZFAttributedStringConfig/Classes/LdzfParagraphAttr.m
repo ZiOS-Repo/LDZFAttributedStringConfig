@@ -1,14 +1,14 @@
 //
-//  IUParagraphAttrConfig.m
-//  CRJAttributedStringConfig_Example
+//  LdzfParagraphAttr.m
+//  LDZFAttributedStringConfig
 //
 //  Created by zhuyuhui on 2020/9/2.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUParagraphAttrConfig.h"
+#import "LdzfParagraphAttr.h"
 
-@implementation IUParagraphAttrConfig
+@implementation LdzfParagraphAttr
 - (NSString *)attributeName {
     
     return NSParagraphStyleAttributeName;
@@ -28,7 +28,7 @@
 
 + (instancetype)configWithParagraphStyle:(NSParagraphStyle *)paragraphStyle range:(NSRange)range {
     
-    IUParagraphAttrConfig *config = [[self class] new];
+    LdzfParagraphAttr *config = [[self class] new];
     config.paragraphStyle            = paragraphStyle;
     config.effectiveStringRange = range;
     
@@ -37,7 +37,7 @@
 
 + (instancetype)configWithParagraphStyle:(NSParagraphStyle *)paragraphStyle {
     
-    IUParagraphAttrConfig *config = [[self class] new];
+    LdzfParagraphAttr *config = [[self class] new];
     config.paragraphStyle            = paragraphStyle;
     
     return config;
